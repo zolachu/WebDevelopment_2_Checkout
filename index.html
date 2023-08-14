@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&display=swap" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/f4a88c23d1f27870fb1e458ace76a752?family=Sharp+Grotesk+Book+20+Regular"
+        rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <img src="./assets/images/dropbox-1.svg" id="logo" alt="dropbox logo">
+    <div class="container">
+
+        <div class="payment">
+            <div>
+                <h1>Your are almost there</h1>
+                <form action="#" method="" id="paymentForm">
+                    <hr />
+                    <div class="billing-cycle">
+                        <h3>1. Choose your billing cycle</h3>
+                        <div class="bill-cycle">
+                            <div class="bill">
+                                <input type="radio" value="year" id="bill-yearly" name="bill" checked>
+                                <label for="bill-yearly">Bill Yearly</label>
+                                <h4 class="brown">$199 / year</h4>
+                            </div>
+                            <div class="bill">
+                                <input type="radio" value="month" id="bill-monthly" name="bill">
+                                <label for="bill-monthly">Bill Monthly</label>
+                                <h4 class="brown">$19 / month</h4>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <hr />
+                    <div class="payment-details">
+                        <h3>2. Enter your payment details</h3>
+                        <div class="card-type">
+                            <input type="radio" value="payment" id="visa" name="card" checked>
+                            <label for="visa"><img src="./assets/images/visa-4.svg" alt="visa"></label>
+                            <input type="radio" value="payment" id="paypal" name="card">
+                            <label for="paypal"><img src="./assets/images/paypal-3.svg" alt="paypal"></label>
+                        </div>
+                        <div class="card-details">
+                            <div class="input input1">
+                                <label for="card-number" class="brown">Card number</label>
+                                <input type="number" id="card-number" name="card-number">
+                                <img src="./assets/images/visa-4.svg">
+                            </div>
+
+                            <div class="input input2">
+                                <label for="card-expiration" class="brown">Expiration date</label>
+                                <input type="text" id="card-expiration" name="card-date">
+                            </div>
+                            <div class="input input3">
+                                <label class="brown" for="cvv">CVV</label>
+                                <input type="number" id="cvv" name="cvv">
+                            </div>
+
+                            <div class="input input4">
+                                <label class="brown" for="country">Country</label>
+                                <input type="text" id="country" name="country">
+                            </div>
+
+                            <div class="input input5">
+                                <!-- <label for="zipcode" class="brown">Zipcode</label> -->
+                                <!-- <input type="number" id="zipcode" name="zipcode"> -->
+                                <!-- <input type="text" id="zipcode" name="zipcode"> -->
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <hr />
+                    <div class="checkbox">
+                        <input type="checkbox">
+                        <span>I agree to the <a href="">Dropbox Business Agreement and Terms</a>. Learn about how we use
+                            and
+                            protect your data in our <a href="">Privacy Policy</a></span>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <div class="plan">
+
+            <div>
+
+                <div>
+                    <div class="plan-detail-container">
+                        <div class="top"></div>
+                        <div class="bottom">
+                            <div class="detail-text">
+                                <h2>Dropbox Professional</h2>
+                                <p>Billed now: $199</p>
+                                <p>You'll be charged $199.</p>
+                            </div>
+                            <input type="submit" for="paymentForm" value="Buy">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div>
+                    <p>What's included in Dropbox Professional</p>
+                    <ul>
+                        <li class="brown"><img src="./assets/images/icons8-done.svg"> Full access to Dropbox for teams
+                            for 30 days</li>
+                        <li class="brown"><img src="./assets/images/icons8-done.svg"> A
+                            secure space for your team to share and collaborate</li>
+                        <li class="brown"><img src="./assets/images/icons8-done.svg">
+                            Advanced sharing and collaboration tools</li>
+                        <li class="brown"><img src="./assets/images/icons8-done.svg">
+                            Easy-to-use content protection and sharing controls</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
